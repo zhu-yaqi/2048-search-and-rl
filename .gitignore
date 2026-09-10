@@ -179,3 +179,41 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs
+checkpoints/
+runs/
+wandb/
+logs/
+
+# Datasets
+data/
+datasets/
+*.npz
+
+# Temporary outputs
+tmp/
+temp/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,41 @@
+{
+  "data": "data/sl_v2_full_80k_d3.npz",
+  "model": "models/sl_v2_80k_d3_c128_b4_bestacc.pt",
+  "best_val_acc": 0.6476239189505577,
+  "last_val_acc": 0.6452762112021446,
+  "best_val_loss": 0.8184045106172562,
+  "last_val_loss": 0.975712426006794,
+  "eval": {
+    "n_games": 100,
+    "avg_score": 5352.68,
+    "median_score": 4764.0,
+    "max_score": 12428,
+    "avg_steps": 391.61,
+    "avg_max_tile": 388.48,
+    "rate_512": 0.52,
+    "rate_1024": 0.03,
+    "rate_2048": 0.0,
+    "max_tile_best": 1024
+  },
+  "config": {
+    "data_out": "data/sl_v2_full_80k_d3.npz",
+    "model_out": "models/sl_v2_80k_d3_c128_b4_bestacc.pt",
+    "reuse_data": true,
+    "samples": 120000,
+    "depth": 3,
+    "seed": 0,
+    "explore_prob": 0.07,
+    "temperature": 0.35,
+    "epochs": 25,
+    "batch_size": 512,
+    "channels": 128,
+    "blocks": 4,
+    "dropout": 0.05,
+    "lr": 0.0003,
+    "soft_weight": 0.3,
+    "hard_weight": 0.7,
+    "eval_games": 100,
+    "device": "cuda",
+    "augment": true
+  }
+}

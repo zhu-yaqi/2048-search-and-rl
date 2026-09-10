@@ -1,0 +1,6 @@
+# 2048 人工智能大作业依赖
+# Python >= 3.10 建议
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.6
+# tkinter 为 Python 标准库自带，无需安装（Windows/macOS 官方安装包默认包含）
